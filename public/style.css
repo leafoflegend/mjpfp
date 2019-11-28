@@ -1,0 +1,10 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

@@ -1,12 +1,32 @@
 {
   "name": "mjpfp",
   "version": "1.0.0",
-  "description": "",
+  "description": "**A project to let you creatively flex your JS muscles and put the whole stack together.**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js",
+    "start:watch": "./node_modules/.bin/nodemon ./server/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "path": "^0.12.7",
+    "pg": "^7.14.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalvinz61/mjpfp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kalvinz61/mjpfp/issues"
+  },
+  "homepage": "https://github.com/kalvinz61/mjpfp#readme"
 }
