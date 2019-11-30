@@ -3,55 +3,9 @@
     <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
-    <script defer src="../dist/main.js"></script>
-
-    <!-- <title>Calendar Proj</title>
-    <style>
-      .day {
-        display: flex;
-        flex-direction: column;
-        border: solid 1px black;
-      }
-      .calendar {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-    </style>
+    <script defer src="/main.js"></script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="text/babel">
-      class App extends React.Component {
-        constructor() {
-          super();
-        }
-        render() {
-          return (
-            <div className="calendar">
-              <h1>Calendar</h1>
-              <Day />
-            </div>
-          );
-        }
-      }
-
-      const Day = () => {
-        return (
-          <div className="day">
-            <h2>DATE</h2>
-            <form>
-              <input type="text" placeholder="Add Task"></input>
-              <button>Add</button>
-              <ul>
-                <li>task here</li>
-              </ul>
-            </form>
-          </div>
-        );
-      };
-
-      ReactDOM.render(<App />, document.querySelector('#root')); -->
-    </script>
   </body>
 </html>
