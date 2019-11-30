@@ -17,7 +17,7 @@ connection
   });
 
 
-server.use(express.static(path.join(__dirname, 'dist')));
+server.use(express.static(path.join(__dirname, '../dist')));
 
 server.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
